@@ -45,26 +45,14 @@ form ul li {
     margin-bottom: 8px; 
 }
 
+.riscado {
+    text-decoration: line-through;
+}
+
 form ul li::before {
     content: "\2022"; 
     color: black;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-}
-
-.overlay-imagem-link {
-    padding: 16px;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    transition: all ease 0.5s;
-}
-
-.overlay-imagem-link a {
-    color: white;
-    text-decoration: none;
 }
